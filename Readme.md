@@ -14,8 +14,7 @@ Simply just add 'sudo' to the beginning.
 Next install:
 npm install grunt --save-dev
 
-Now you just need to install the dependencies for each part. What's great is if you simply type 'grunt' into Terminal it will directly tell you which
-dependencies it detects and it will tell you to install them if it can't find them. The dependencies can also be found in the GruntJS file.
+Now you just need to install the dependencies. Since, I already created the package.json all you need to do is type `npm install`.
 
 In this project I have the following:
 "grunt-contrib-uglify" (Used to minify code)
@@ -24,15 +23,6 @@ In this project I have the following:
 "grunt-contrib-connect" (Used to create a server)
 "grunt-contrib-jshint" (A tool that helps to detect errors and potential problems in your JavaScript code as well as write cleaner code.)
 "grunt-contrib-watch" (Watches your files for changes)
-
-
-So to install each one just type ...
-npm install grunt-contrib-uglify --save-dev,
-npm install grunt-contrib-concat --save-dev,
-npm install grunt-contrib-sass --save-dev,
-npm install grunt-contrib-connect --save-dev,
-npm install grunt-contrib-jshint --save-dev,
-npm install grunt-contrib-watch --save-dev
 
 
 *You may also have to install clean-css.
