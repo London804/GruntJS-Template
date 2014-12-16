@@ -41,7 +41,7 @@ gem install sass
 gem install compass
 
 Usage:
-I have everyone but the 'grunt server' and 'grunt watch' set as a default task which means all you need to do is type 'grunt' into terminal and they will automatically run.
+I have everything but the 'grunt server' and 'grunt watch' set as a default task which means all you need to do is type 'grunt' into terminal and they will automatically run.
 Keep in mind typing 'grunt' into terminal is necessary to see changes to your 'sass' code as well as to check your javaScript.
 
 If you want to start a server simply just type 'grunt connect' and Grunt will start a server and open the window for you. If you need additional windows
