@@ -4,6 +4,14 @@ This is a template that I think would be useful to use for all projects.
 The Grunt.js website (http://gruntjs.com/) will be useful especially the 'Getting Started' section. Also if you are interested in learning
 how to do this from scratch this video (http://css-tricks.com/video-screencasts/130-first-moments-grunt/) will be very helpful.
 
+In this project I have the following:
+"grunt-contrib-uglify" (Used to minify code)
+"grunt-contrib-concat" (Used to concat files which helps reduce the size)
+"grunt-contrib-sass" (Used to compile SASS to CSS)
+"grunt-contrib-connect" (Used to create a server)
+"grunt-contrib-jshint" (A tool that helps to detect errors and potential problems in your JavaScript code as well as write cleaner code.)
+"grunt-contrib-watch" (Watches your files for changes)
+
 Directions: 
 -Make sure you have grunt installed. Type 'npm install grunt --save-dev' in terminal if you do not.
 -Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
