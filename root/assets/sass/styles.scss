@@ -1,0 +1,14 @@
+@import 'bootstrap.scss';
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+//variables
+$background: #fafafa;
+$font: Impact, Charcoal, sans-serif;
+
+body {
+  background: $background;
+  font-family: $font;
+}
