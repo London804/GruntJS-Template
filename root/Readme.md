@@ -9,12 +9,15 @@ Directions:
 -Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
 -Next move into the directory you want to use for your project in terminal and type 'grunt-init GruntJSTemplate'
 -Install the dependencies with 'npm install'. If you get an error that states 'Please try running this command again as root/Administrator.'
-Simply just add 'sudo' to the beginning.
+Simply just add 'sudo' to the beginning. 
+-If necessary also type 'npm install grunt-contrib-connect --save-dev' for grunt server dependency.
 
 *You may also have to install clean-css.
 *For SASS you also need to:
 gem install sass
 gem install compass
+
+-For future projects all you need to do is start from third step. 
 
 Usage:
 I have everything but the 'grunt server' and 'grunt watch' set as a default task which means all you need to do is type 'grunt' into terminal and they will automatically run.
