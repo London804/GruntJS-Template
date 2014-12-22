@@ -14,10 +14,13 @@ In this project I have the following:
 
 Directions: 
 1 - Make sure you have grunt installed. Type 'npm install grunt --save-dev' in terminal if you do not.
+
 2 - Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
+
 3 - Next move into the directory you want to use for your project in terminal and type 'grunt-init GruntJSTemplate'
-4 - Install the dependencies with 'npm install'. If you get an error that states 'Please try running this command again as root/Administrator.'
-Simply just add 'sudo' to the beginning. 
+
+4 - Install the dependencies with 'npm install'. If you get an error that states 'Please try running this command again as root/Administrator.' Simply just add 'sudo' to the beginning. 
+
 5 - If necessary also type 'npm install grunt-contrib-connect --save-dev' for grunt server dependency.
 
 *You may also have to install clean-css.
