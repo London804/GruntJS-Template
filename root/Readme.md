@@ -13,6 +13,7 @@ In this project I have the following:
 "grunt-contrib-watch" (Watches your files for changes)
 
 Directions: 
+
 1 - Make sure you have grunt installed. Type 'npm install grunt --save-dev' in terminal if you do not.
 
 2 - Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
