@@ -7,7 +7,7 @@ how to do this from scratch this video (http://css-tricks.com/video-screencasts/
 Directions: 
 -Make sure you have grunt installed. Type 'npm install grunt --save-dev' in terminal if you do not.
 -Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
--Next move to the folder you want to use for your project in terminal and type 'grunt-init GruntJSTemplate'
+-Next move into the directory you want to use for your project in terminal and type 'grunt-init GruntJSTemplate'
 -Install the dependencies with 'npm install'. If you get an error that states 'Please try running this command again as root/Administrator.'
 Simply just add 'sudo' to the beginning.
 
@@ -34,7 +34,7 @@ It likely exist for other browsers as well.
 Alternatively, you can include: <script src="//localhost:35729/livereload.js"></script> on every html page.
 
 Grunt watch is cool because apart from starting a server it does everything for you. The only problem is it can be buggy at times.
-If you do have any errors you are going to have to end the task (hit control c) and then restart (simply press the "up arrow"). Also there can be a delay of anywhere from
+If you do have any errors you are going to have to end the task (hit control + c) and then restart (simply press the "up arrow"). Also there can be a delay of anywhere from
 2 - 10 seconds depending on how many things you changed and how big the files are.
 I personally prefer to compile everything myself by running "grunt" and then just hitting the 'up arrow' every time. It's completely up to you.
 

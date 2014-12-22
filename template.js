@@ -16,7 +16,6 @@ exports.warnOn = '*';
 // The actual init template.
 exports.template = function(grunt, init, done) {
     var files = init.filesToCopy();
-
     // Copy all files in the root directory
     init.copyAndProcess(files);
 
