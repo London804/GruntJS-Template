@@ -1,15 +1,19 @@
 Project Template
 
 This is a template that I think would be useful to use for all projects.
-The Grunt.js website (http://gruntjs.com/) will be useful especially the 'Getting Started' section. Also if you are interested in learning
-how to do this from scratch this video (http://css-tricks.com/video-screencasts/130-first-moments-grunt/) will be very helpful.
+The Grunt.js website (http://gruntjs.com/) will be useful especially the 'Getting Started' section. Also if you are interested in learning how to do this from scratch this video (http://css-tricks.com/video-screencasts/130-first-moments-grunt/) will be very helpful.
 
 In this project I have the following:
 "grunt-contrib-uglify" (Used to minify code)
+
 "grunt-contrib-concat" (Used to concat files which helps reduce the size)
+
 "grunt-contrib-sass" (Used to compile SASS to CSS)
+
 "grunt-contrib-connect" (Used to create a server)
+
 "grunt-contrib-jshint" (A tool that helps to detect errors and potential problems in your JavaScript code as well as write cleaner code.)
+
 "grunt-contrib-watch" (Watches your files for changes)
 
 Directions: 
@@ -31,6 +35,7 @@ gem install compass
 
 -For future projects all you need to do is start from third step. 
 
+
 Usage:
 I have everything but the 'grunt server' and 'grunt watch' set as a default task which means all you need to do is type 'grunt' into terminal and they will automatically run.
 Keep in mind typing 'grunt' into terminal is necessary to see changes to your 'sass' code as well as to check your javaScript.
@@ -40,6 +45,7 @@ just copy and paste into a new tab and change the /path as needed.
 
 I imagine overtime we may want to add something else that I don't have here. The process to install it would be very similar and it will be listed
 on the website's documentation.
+
 
 Usage for Grunt Watch:
 To use Grunt Watch simply type 'grunt watch -v'
@@ -52,6 +58,7 @@ Grunt watch is cool because apart from starting a server it does everything for 
 If you do have any errors you are going to have to end the task (hit control + c) and then restart (simply press the "up arrow"). Also there can be a delay of anywhere from
 2 - 10 seconds depending on how many things you changed and how big the files are.
 I personally prefer to compile everything myself by running "grunt" and then just hitting the 'up arrow' every time. It's completely up to you.
+
 
 Everything Else:
 Bootstrap is preloaded with the Sass configuration. I purposely commented out many files that may not often be used in the 'bootstrap.scss' file
