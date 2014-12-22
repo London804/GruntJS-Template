@@ -1,7 +1,7 @@
 Project Template
 
 This is a template that I think would be useful to use for all projects.
-The Grunt.js website (http://gruntjs.com/) will be useful especially the Getting Started section. Also if you are interested in learning
+The Grunt.js website (http://gruntjs.com/) will be useful especially the 'Getting Started' section. Also if you are interested in learning
 how to do this from scratch this video (http://css-tricks.com/video-screencasts/130-first-moments-grunt/) will be very helpful.
 
 Directions: 
