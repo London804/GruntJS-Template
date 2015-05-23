@@ -20,7 +20,7 @@ Directions:
 
 1 - Make sure you have grunt installed. Type 'npm install grunt --save-dev' in terminal if you do not.
 
-2 - Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'.
+2 - Move this directory to ~/.grunt-init using the command 'mv GruntJSTemplate ~/.grunt-init'. If '~/.grunt-init' does not exist create it with mkdir ~/.grunt-init. 
 
 3 - Next move into the directory you want to use for your project in terminal and type 'grunt-init GruntJSTemplate'
 
